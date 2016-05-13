@@ -5,7 +5,7 @@ Home: https://github.com/axiom-data-science/pyncml
 
 Package license: MIT License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: A simple python library to apply NcML logic to NetCDF files
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyncml-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/pyncml-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyncml-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyncml-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyncml-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyncml-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyncml/badges/version.svg)](https://anaconda.org/conda-forge/pyncml)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyncml/badges/downloads.svg)](https://anaconda.org/conda-forge/pyncml)
 
 
 Updating pyncml-feedstock
