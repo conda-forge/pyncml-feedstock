@@ -1,38 +1,40 @@
+{% set version = "0.0.8" %}
+
 package:
-    name: pyncml
-    version: 0.0.8
+  name: pyncml
+  version: {{ version }}
 
 source:
-    fn: pyncml-0.0.8.tar.gz
-    url: https://pypi.python.org/packages/source/p/pyncml/pyncml-0.0.8.tar.gz
-    md5: 4a77f97a687561fde285f7fad1c297e2
+  fn: pyncml-{{ version }}.tar.gz
+  url: https://github.com/axiom-data-science/pyncml/archive/{{ version }}.tar.gz
+  sha256: a042c49ccc5104593a9936aadb2c52bf9d163f212f44fbf7f509306320e80130
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-        - netcdf4
-        - pytz
-    run:
-        - python
-        - numpy
-        - netcdf4
-        - pytz
+  build:
+    - python
+    - setuptools
+    - netcdf4
+    - pytz
+  run:
+    - python
+    - numpy
+    - netcdf4
+    - pytz
 
 test:
-    imports:
-        - pyncml
+  imports:
+    - pyncml
 
 about:
-    home: https://github.com/axiom-data-science/pyncml
-    license: MIT License
-    summary: A simple python library to apply NcML logic to NetCDF files
+  home: https://github.com/axiom-data-science/pyncml
+  license: MIT
+  summary: 'A simple python library to apply NcML logic to NetCDF files.'
 
 extra:
-    recipe-maintainers:
-        - kwilcox
-        - ocefpaf
+  recipe-maintainers:
+    - kwilcox
+    - ocefpaf
