@@ -6,7 +6,7 @@ package:
 
 source:
   fn: pyncml-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/p/pyncml/pyncml-{{ version }}.tar.gz
+  url: https://github.com/axiom-data-science/pyncml/archive/{{ version }}.tar.gz
   sha256: a042c49ccc5104593a9936aadb2c52bf9d163f212f44fbf7f509306320e80130
 
 build:
