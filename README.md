@@ -3,11 +3,11 @@ About pyncml
 
 Home: https://github.com/axiom-data-science/pyncml
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: A simple python library to apply NcML logic to NetCDF files
+Summary: A simple python library to apply NcML logic to NetCDF files.
 
 
 
