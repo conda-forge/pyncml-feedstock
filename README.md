@@ -11,6 +11,18 @@ Summary: A simple python library to apply NcML logic to NetCDF files.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyncml-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyncml-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyncml-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyncml-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyncml-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyncml-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyncml/badges/version.svg)](https://anaconda.org/conda-forge/pyncml)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyncml/badges/downloads.svg)](https://anaconda.org/conda-forge/pyncml)
+
 Installing pyncml
 =================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pyncml` available on your platfor
 ```
 conda search pyncml --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyncml-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyncml-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyncml-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyncml-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyncml-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyncml-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyncml/badges/version.svg)](https://anaconda.org/conda-forge/pyncml)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyncml/badges/downloads.svg)](https://anaconda.org/conda-forge/pyncml)
 
 
 Updating pyncml-feedstock
